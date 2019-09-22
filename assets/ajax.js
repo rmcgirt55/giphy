@@ -32,7 +32,7 @@ $("#addhofThing").on("click", function(event) {
             player.push(hofInput);
             showButtons(); }
             else if (response.pagination.total_count === 0) {
-                $("#submission").html("No gifs currently.");}
+                $("#submission").alert("No gifs currently.");}
         });
 });
 
